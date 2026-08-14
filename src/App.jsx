@@ -1,6 +1,7 @@
 import { Header } from "./components/Header"
 import { Sobre } from "./pages/Sobre"
 import "./App.css"
+import { Footer } from "./components/Footer"
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
         <h1>Meu portfólio</h1>
         <Sobre />
       </section>
+      <Footer />
     </main>
   )
 }
