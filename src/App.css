@@ -1,3 +1,28 @@
-.Principal{
-  background-color: black;
+* {
+  box-sizing: border-box;
 }
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  background: #050816;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Inter, "Segoe UI", sans-serif;
+  background: #050816;
+  color: #e2e8f0;
+}
+
+.Principal {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  background: #050816;
+}
+
