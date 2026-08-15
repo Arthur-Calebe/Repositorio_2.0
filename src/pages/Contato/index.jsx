@@ -11,13 +11,13 @@ export const Contato = () => {
     {
       nome: 'LinkedIn',
       icone: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg',
-      url: 'https://linkedin.com/in/arthur-calebe',
+      url: 'www.linkedin.com/in/arthur-calebe-a411b9319',
       descricao: 'Conecte comigo profissionalmente',
     },
     {
       nome: 'Email',
       icone: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-plain.svg',
-      url: 'mailto:seu-email@exemplo.com',
+      url: 'arthurcalebedev@gmail.com',
       descricao: 'Envie-me uma mensagem',
     }
 
