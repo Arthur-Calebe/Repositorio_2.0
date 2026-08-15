@@ -11,15 +11,9 @@ export const Contato = () => {
     {
       nome: 'LinkedIn',
       icone: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg',
-      url: 'www.linkedin.com/in/arthur-calebe-a411b9319',
+      url: 'https://www.linkedin.com/in/arthur-calebe-a411b9319',
       descricao: 'Conecte comigo profissionalmente',
     },
-    {
-      nome: 'Email',
-      icone: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-plain.svg',
-      url: 'arthurcalebedev@gmail.com',
-      descricao: 'Envie-me uma mensagem',
-    }
 
   ]
 

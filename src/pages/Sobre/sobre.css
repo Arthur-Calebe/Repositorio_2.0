@@ -177,8 +177,22 @@
   box-shadow: 0 8px 24px rgba(125, 211, 252, 0.1);
 }
 
+.sobre__section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.sobre__section-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(75%) sepia(65%) saturate(428%) hue-rotate(160deg) brightness(104%) contrast(101%);
+}
+
 .sobre__section-title {
-  margin: 0 0 1rem;
+  margin: 0;
   color: #f1f5f9;
   font-size: 1.15rem;
   font-weight: 700;
