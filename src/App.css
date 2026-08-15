@@ -11,6 +11,11 @@ body,
   min-height: 100%;
   background: #050816;
   overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -24,5 +29,18 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #050816;
+}
+
+.content-shell {
+  width: min(1200px, calc(100% - 2rem));
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(3rem, 6vw, 5rem);
+  padding: clamp(2rem, 4vw, 4rem) 0 clamp(4rem, 6vw, 6rem);
+}
+
+section {
+  scroll-margin-top: 100px;
 }
 
