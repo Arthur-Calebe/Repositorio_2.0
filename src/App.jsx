@@ -4,6 +4,7 @@ import "./App.css"
 import { Footer } from "./components/Footer"
 import { Home } from "./pages/Home"
 import { Projetos } from "./pages/Projetos"
+import { Skills } from "./pages/Skills"
 
 export const App = () => {
   return (
@@ -13,6 +14,7 @@ export const App = () => {
         <Home />
         <Sobre />
         <Projetos />
+        <Skills />
       </section>
       <Footer />
     </main>

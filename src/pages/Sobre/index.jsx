@@ -1,28 +1,6 @@
 import './sobre.css'
 
 export const Sobre = () => {
-  const caracteristicas = [
-    {
-      icone: '🎓',
-      titulo: 'Formação',
-      descricao: 'Engenheiro de Software em formação no IBMEC-RJ',
-    },
-    {
-      icone: '🚀',
-      titulo: 'Especialidade',
-      descricao: 'Desenvolvimento Full Stack',
-    },
-    {
-      icone: '💻',
-      titulo: 'Tecnologias',
-      descricao: 'Java, React, JavaScript, HTML, CSS, Spring Boot',
-    },
-    {
-      icone: '🔍',
-      titulo: 'Curiosidade',
-      descricao: 'Arquitetura, boas práticas e como tudo funciona',
-    },
-  ]
 
   return (
     <section className="sobre" id="sobre">
