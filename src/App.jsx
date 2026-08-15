@@ -5,6 +5,7 @@ import { Footer } from "./components/Footer"
 import { Home } from "./pages/Home"
 import { Projetos } from "./pages/Projetos"
 import { Skills } from "./pages/Skills"
+import { Contato } from "./pages/Contato"
 
 export const App = () => {
   return (
@@ -15,6 +16,7 @@ export const App = () => {
         <Sobre />
         <Projetos />
         <Skills />
+        <Contato />
       </section>
       <Footer />
     </main>
