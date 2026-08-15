@@ -1,6 +1,29 @@
 import './sobre.css'
 
 export const Sobre = () => {
+  const caracteristicas = [
+    {
+      icone: '🎓',
+      titulo: 'Formação',
+      descricao: 'Engenheiro de Software em formação no IBMEC-RJ',
+    },
+    {
+      icone: '🚀',
+      titulo: 'Especialidade',
+      descricao: 'Desenvolvimento Full Stack',
+    },
+    {
+      icone: '💻',
+      titulo: 'Tecnologias',
+      descricao: 'Java, React, JavaScript, HTML, CSS, Spring Boot',
+    },
+    {
+      icone: '🔍',
+      titulo: 'Curiosidade',
+      descricao: 'Arquitetura, boas práticas e como tudo funciona',
+    },
+  ]
+
   return (
     <section className="sobre" id="sobre">
       <div className="sobre__header">
@@ -8,27 +31,35 @@ export const Sobre = () => {
         <h2>Quem sou eu</h2>
       </div>
 
-      <div className="sobre__content">
-        <p>
-          Me chamo <strong>Arthur Calebe</strong>, tenho 19 anos e curso Engenharia de
-          Software na IBMEC, no 3º período.
-        </p>
-        <p>
-          Sempre fui uma pessoa curiosa por tecnologia, com interesse em desenvolvimento web,arquitetura de software e em criar experiências digitais que realmente façam a diferença para o usuário.
-        </p>
-        <p>
-          Gosto de transformar ideias em soluções funcionais, pensadas em clareza,
-          performance e usabilidade. A cada projeto, busco aprender mais, evoluir minha
-          lógica e melhorar a qualidade do que entrego.
+      <div className="sobre__intro">
+        <p className="sobre__intro-text">
+          Sou <span className="sobre__highlight">Engenheiro de Software em formação no IBMEC-RJ</span> com foco em desenvolvimento Full Stack. Tenho construído minha base em Java, React, JavaScript, HTML e CSS, desenvolvendo projetos para colocar em prática meus conhecimentos. Atualmente, venho aprofundando meus estudos em back-end, orientação a objetos, APIs, bancos de dados e Spring Boot. Gosto de entender como as aplicações funcionam por trás das interfaces e estou sempre buscando evoluir minhas habilidades, transformar ideias em projetos e me preparar para os próximos desafios da área de tecnologia.
         </p>
       </div>
 
-      <ul className="sobre__lista">
-        <li>Foco em me tornar um desenvolvedor Full-Stack</li>
-        <li>Interesse em React, JavaScript e Java</li>
-        <li>Curiosidade por arquitetura e boas práticas</li>
-        <li>Busca constante por aprendizado e evolução técnica</li>
-      </ul>
+      <div className="sobre__sections">
+        <div className="sobre__section">
+          <h3 className="sobre__section-title">📚 Jornada</h3>
+          <p className="sobre__section-text">
+            Tenho construído minha base em <strong>Java, React, JavaScript, HTML e CSS</strong>, desenvolvendo projetos para colocar em prática meus conhecimentos. Cada projeto é uma oportunidade de aprender e evoluir.
+          </p>
+        </div>
+
+        <div className="sobre__section">
+          <h3 className="sobre__section-title">🎯 Foco Atual</h3>
+          <p className="sobre__section-text">
+            Atualmente aprofundo meus estudos em <strong>back-end, orientação a objetos, APIs, bancos de dados e Spring Boot</strong>. Quero entender não apenas como construir, mas como construir bem.
+          </p>
+        </div>
+
+        <div className="sobre__section">
+          <h3 className="sobre__section-title">🚀 Objetivos</h3>
+          <p className="sobre__section-text">
+            Busco constante evolução técnica, transformando ideias em projetos concretos e me preparando para os próximos desafios. Quero criar impacto através da tecnologia.
+          </p>
+        </div>
+      </div>
+
     </section>
   )
 }
