@@ -15,7 +15,19 @@ body,
 }
 
 html {
-  scroll-padding-top: 100px;
+  scroll-padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  html {
+    scroll-padding-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    scroll-padding-top: 65px;
+  }
 }
 
 body {
@@ -29,6 +41,19 @@ body {
   min-height: 100vh;
   margin: 0;
   background: #050816;
+  padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+  .Principal {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Principal {
+    padding-top: 55px;
+  }
 }
 
 .content-shell {
