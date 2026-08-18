@@ -26,7 +26,7 @@ export const Sobre = () => {
             <h3 className="sobre__section-title">Jornada</h3>
           </div>
           <p className="sobre__section-text">
-            Tenho construído minha base em <strong>Java, React, JavaScript, HTML e CSS</strong>, desenvolvendo projetos para colocar em prática meus conhecimentos. Cada projeto é uma oportunidade de aprender e evoluir.
+            Tenho construído minha base em <strong>Java, React, JavaScript, HTML e CSS</strong>, desenvolvendo projetos para colocar em prática meus conhecimentos. Cada projeto é uma oportunidade de aprender e evoluir
           </p>
         </div>
 
