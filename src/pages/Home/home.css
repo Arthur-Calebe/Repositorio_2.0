@@ -10,6 +10,15 @@
   margin: 0 auto;
 }
 
+.hero-animation {
+  color: #61dafb;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 .home__content {
   display: flex;
   flex-direction: column;

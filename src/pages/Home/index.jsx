@@ -1,11 +1,23 @@
 import './home.css'
 import profileImage from '../../assets/meuEU1.png'
+import { TypeAnimation } from "react-type-animation";
 
 export const Home = () => {
   return (
     <section className="home" id="home">
       <div className="home__content">
-        <p className="home__eyebrow">Software Engineer · Full-stack</p>
+              <TypeAnimation className="hero-animation"
+        sequence={[
+          "Software Engineer - Full-Stack",
+          1500,
+          "React Developer",
+          1500,
+          "Java Developer",
+          1500,
+        ]}
+          speed={50}
+          repeat={Infinity}/>
+
         <h1>
           Arthur <span>Calebe</span>
         </h1>
